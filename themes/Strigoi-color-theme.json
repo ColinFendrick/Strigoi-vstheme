@@ -167,7 +167,7 @@
 				"meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js"
 			],
 			"settings": {
-				"fontStyle": "normal",
+				"fontStyle": "",
 				"foreground": "#f1fa8c"
 			}
 		},
@@ -178,7 +178,7 @@
 				"meta.class.inheritance support.type.python"
 			],
 			"settings": {
-				"fontStyle": "normal",
+				"fontStyle": "",
 				"foreground": "#50fa7b"
 			}
 		},
@@ -490,7 +490,8 @@
 		"editorLink.activeForeground": "#8be9fd",
 		"editor.rangeHighlightBackground": "#bd93f955",
 		"editorCodeLens.foreground": "#6272a4",
-		"editorBracketMatch.background": "#8be9fd",
+		"editorBracketMatch.background": "#8be8fdb4",
+		"editorBracketMatch.border": "#6272a4",
 		"editorError.foreground": "#ff5555",
 		"editorWarning.foreground": "#8be9fd",
 		"editorGutter.modifiedBackground": "#ffb86c55",
@@ -508,7 +509,24 @@
 		"editorHoverWidget.border": "#6272a4",
 		"dropdown.background": "#343746",
 		"dropdown.border": "#191a21",
-		"dropdown.foreground": "#f8f8f2"
+		"dropdown.foreground": "#f8f8f2",
+		"input.background": "#44475a",
+		"input.foreground": "#f8f8f2",
+		"input.border": "#191a21",
+		"input.placeholderForeground": "#ff5555",
+		"inputOption.activeBorder": "#bd93f9",
+		"inputValidation.infoBorder": "#ff79c6",
+		"inputValidation.warningBorder": "#ffb86c",
+		"inputValidation.errorBorder": "#ff5555",
+		"progressBar.background": "#ff79c6",
+		"list.activeSelectionBackground": "#44475A",
+		"list.activeSelectionForeground": "#F8F8F2",                                 
+		"list.dropBackground": "#44475A",                                       
+  	"list.focusBackground": "#44475A75",
+  	"list.highlightForeground": "#8BE9FD",
+		"list.hoverBackground": "#44475A75",  	
+		"list.inactiveSelectionBackground": "#44475A75",
+
 	},
 	"name": "Strigoi"
 }
