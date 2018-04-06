@@ -72,9 +72,7 @@
 				"punctuation.definition.tag.html",
 				"punctuation.definition.tag.begin.html",
 				"punctuation.definition.tag.end.html",
-				"punctuation.section.embedded",
-				"keyword.other.template",
-				"keyword.other.substitution"
+				"punctuation.section.embedded"
 			],
 			"settings": {
 				"foreground": "#f8f8f2"
@@ -463,6 +461,25 @@
 				"meta.at-rule.mixin variable",
 				"entity.other.attribute-name.placeholder punctuation",
 				"meta.attribute-selector.scss"		
+			],
+			"settings": {
+				"foreground": "#ff79c6"
+			}
+		},
+		{
+			"name": "Variable interpolation operators",
+			"scope": [
+				"meta.string-contents.quoted.double punctuation.definition.variable",
+				"punctuation.definition.template-expression.begin",
+				"punctuation.definition.template-expression.end",
+				"punctuation.definition.interpolation.begin",
+				"punctuation.definition.interpolation.end",
+				"punctuation.section.embedded.begin",
+				"punctuation.section.embedded.coffee",
+				"punctuation.section.embedded.end",
+				"punctuation.definition.variable.makefile",
+				"keyword.other.template",
+				"keyword.other.substitution"
 			],
 			"settings": {
 				"foreground": "#ff79c6"
