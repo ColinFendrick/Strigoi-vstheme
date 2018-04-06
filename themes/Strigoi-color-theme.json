@@ -36,7 +36,7 @@
 				"variable.other.readwrite.js"
 			],
 			"settings": {
-				"foreground": "#f8f8f2"
+				"foreground": "#f8f8f2ee"
 			}
 		},
 		{
@@ -46,7 +46,7 @@
 				"meta.property.object"
 			],
 			"settings": {
-				"foreground": "#f8f8f2"
+				"foreground": "#f8f8f2ee"
 			}
 		},
 		{
@@ -73,10 +73,7 @@
 		{
 			"name": "Operator, Misc",
 			"scope": [
-				"keyword.operator",
-				"constant.other.color",
 				"punctuation",
-				"meta.tag",
 				"punctuation.tag.string",
 				"punctuation.definition.tag",
 				"punctuation.separator.inheritance.php",
@@ -88,8 +85,17 @@
 				"keyword.other.substitution"
 			],
 			"settings": {
-				"foreground": "#ff79c6"
+				"foreground": "#f8f8f2"
 			}
+		},
+		{
+			"name": "Keywords",
+			"scope": [
+				"keyword.operator",
+				"constant.other.color", 
+				"meta.tag"
+			],
+			"settings": {"foreground": "#ff79c6"}
 		},
 		{
 			"name": "Python Punctuation",
@@ -137,7 +143,7 @@
 				"keyword.other.unit"
 			],
 			"settings": {
-				"foreground": "#F99157"
+				"foreground": "#ffb86c"
 			}
 		},
 		{
@@ -214,7 +220,7 @@
 				"meta.class variable.other"
 			],
 			"settings": {
-				"foreground": "#EC5F67"
+				"foreground": "#ff5555ee"
 			}
 		},
 		{
@@ -224,7 +230,7 @@
 				"variable.import.parameter.js"
 			],
 			"settings": {
-				"foreground": "#EC5F67"
+				"foreground": "#ff5555cc"
 			}
 		},
 		{
@@ -235,7 +241,7 @@
 			],
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#EC5F67"
+				"foreground": "#bd93f9"
 			}
 		},
 		{
@@ -243,7 +249,7 @@
 			"scope": "variable.parameter.function.language.python",
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#F99157"
+				"foreground": "#ffb86c"
 			}
 		},
 		{
@@ -449,7 +455,7 @@
 		"editor.background": "#282a36",
 		"editorCursor.foreground": "#f8f8f2",
 		"editor.foreground": "#f8f8f2",
-		"editorIndentGuide.background": "#65737F",
+		"editorIndentGuide.background": "#44475a88",
 		"editorWhitespace.foreground": "#44475a",
 		"editor.lineHighlightBackground": "#44475a",
 		"editor.selectionBackground": "#44475a"
