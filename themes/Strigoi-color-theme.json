@@ -1,4 +1,4 @@
-{
+{	
 	"tokenColors": [
 		{
 			"settings": {
@@ -101,7 +101,7 @@
 			"name": "Python Punctuation",
 			"scope": "source.python punctuation.definition",
 			"settings": {
-				"foreground": "#8be9fd"
+				"foreground": "#f8f8f2"
 			}
 		},
 		{
@@ -132,9 +132,8 @@
 			}
 		},
 		{
-			"name": "Number, Constant, Function Argument, Tag Attribute, Embedded",
+			"name": "Constant, Function Argument, Tag Attribute, Embedded",
 			"scope": [
-				"constant.numeric",
 				"constant.language",
 				"support.constant",
 				"constant.character",
@@ -145,6 +144,13 @@
 			"settings": {
 				"foreground": "#ffb86c"
 			}
+		},
+		{
+			"name": "Number",
+			"scope": [
+				"constant.numeric"
+			],
+			"settings": { "foreground": "#ffb86c"}
 		},
 		{
 			"name": "String, Symbols, Inherited Class, Markup Heading",
@@ -210,7 +216,7 @@
 				"variable.legacy.builtin.python"
 			],
 			"settings": {
-				"foreground": "#FAC863"
+				"foreground": "#ffb86c"
 			}
 		},
 		{
@@ -249,7 +255,7 @@
 			"scope": "variable.parameter.function.language.python",
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#ffb86c"
+				"foreground": "#bd93f9"
 			}
 		},
 		{
@@ -278,7 +284,7 @@
 			"name": "Deleted",
 			"scope": "markup.deleted",
 			"settings": {
-				"foreground": "#EC5F67"
+				"foreground": "#ff5555"
 			}
 		},
 		{
@@ -338,7 +344,7 @@
 			"name": "Search Results Lines",
 			"scope": "entity.name.filename.find-in-files",
 			"settings": {
-				"foreground": "#99C794"
+				"foreground": "#f1fa8c"
 			}
 		},
 		{
@@ -367,7 +373,7 @@
 				"source.json meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json punctuation.definition.string - meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string"
 			],
 			"settings": {
-				"foreground": "#FAC863"
+				"foreground": "#ffb86c"
 			}
 		},
 		{
@@ -452,13 +458,57 @@
 		}
 	],
 	"colors": {
+		"activityBar.background": "#343746",
+		"activityBar.foreground": "#f8f8f2",
+		"activityBarBadge.background": "#ff79c6",
+		"activityBarBadge.foreground": "#f8f8f2",
+		"sideBar.background": "#21222C",
+		"sideBarTitle.foreground": "#f8f8f2",
+		"editorGroup.border": "#bd93f9",
+		"editorGroup.dropBackground": "#44475A70",
+		"editorGroupHeader.tabsBackground": "#44475a70",
+		"tab.activeBackground": "#282a36",
+		"tab.activeForeground": "#f8f8f2",
+		"tab.border": "#191a21",
+		"tab.activeBorder": "#ff79c6ff",
+		"tab.inactiveBackground": "#21222c",
+		"tab.inactiveForeground": "#6272a4",
 		"editor.background": "#282a36",
 		"editorCursor.foreground": "#f8f8f2",
 		"editor.foreground": "#f8f8f2",
+		"editorLineNumber.foreground": "#6272a4",
 		"editorIndentGuide.background": "#44475a88",
 		"editorWhitespace.foreground": "#44475a",
 		"editor.lineHighlightBackground": "#44475a",
-		"editor.selectionBackground": "#44475a"
+		"editor.selectionBackground": "#44475a",
+		"editor.selectionHighlightBackground": "#424450",
+		"editor.wordHighlightBackground": "#8be9fd99",
+		"editor.wordHighlightStrongBackground": "#50FA7B88",
+		"editor.findMatchBackground": "#FFB86C33",
+		"editor.findMatchHighlightBackground": "#ffffff77",
+		"editor.findRangeHighlightBackground": "#44475A75",
+		"editorLink.activeForeground": "#8be9fd",
+		"editor.rangeHighlightBackground": "#bd93f955",
+		"editorCodeLens.foreground": "#6272a4",
+		"editorBracketMatch.background": "#8be9fd",
+		"editorError.foreground": "#ff5555",
+		"editorWarning.foreground": "#8be9fd",
+		"editorGutter.modifiedBackground": "#ffb86c55",
+		"editorGutter.addedBackground": "#50fa7b88",
+		"editorGutter.deletedBackground": "#ff555566",
+		"diffEditor.insertedTextBackground": "#50fa7b44",
+		"diffEditor.removedTextBackground": "#ff555588",
+		"gitDecoration.modifiedResourceForeground": "#ffb86c",
+		"gitDecoration.deletedResourceForeground": "#ff5555",
+		"gitDecoration.untrackedResourceForeground": "#50fa7b",
+		"gitDecoration.ignoredResourceForeground": "#6272a4",
+		"gitDecoration.conflictingResourceForeground": "#ffb86c",
+		"editorWidget.background": "#21222C",
+		"editorHoverWidget.background": "#44475a",
+		"editorHoverWidget.border": "#6272a4",
+		"dropdown.background": "#343746",
+		"dropdown.border": "#191a21",
+		"dropdown.foreground": "#f8f8f2"
 	},
 	"name": "Strigoi"
 }
