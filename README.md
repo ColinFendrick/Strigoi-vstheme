@@ -1,10 +1,12 @@
 # README
 ## This is the README for your extension "strigoi"
-You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
+This is a version of the [Dracula Theme](https://draculatheme.com/visual-studio-code/) designed to
+work with [Sublime Babel](https://github.com/babel/babel-sublime).
 
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+CMD+V` on macOS or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux) or `Cmd+Space` (macOS) to see a list of Markdown snippets
+Big shoutout to [Josh Peng](https://github.com/joshpeng) for his [Charcoal Oceanic Next](https://github.com/joshpeng/Charcoal-Oceanic-Next)
+theme. This basically takes the logic of that theme and uses the Dracula colors. Very much a work in progress.
+
+![Example]('./images/screenshot-1.png')
 
 ### For more information
 * [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)

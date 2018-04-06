@@ -3,7 +3,7 @@
     "displayName": "Strigoi",
     "description": "Dracula colors in oceanic next with babel es7 support",
     "version": "0.0.1",
-    "publisher": "blank",
+    "publisher": "Colin Fendrick",
     "engines": {
         "vscode": "^1.22.0"
     },
