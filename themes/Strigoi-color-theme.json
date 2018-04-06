@@ -235,8 +235,7 @@
 				"meta.class variable.other"
 			],
 			"settings": {
-				"foreground": "#bd93f9",
-				"fontStyle": "italic"
+				"foreground": "#bd93f9"
 			}
 		},
 		{
@@ -455,6 +454,19 @@
 			"settings": {
 				"foreground": "#ff79c6"
 			}
+		},
+		{
+			"name": "CSS/Sass/SCSS stuff",
+			"scope": [
+				"meta.selector",
+				"meta.at-rule.function variable",
+				"meta.at-rule.mixin variable",
+				"entity.other.attribute-name.placeholder punctuation",
+				"meta.attribute-selector.scss"		
+			],
+			"settings": {
+				"foreground": "#ff79c6"
+			}
 		}
 	],
 	"colors": {
@@ -490,8 +502,8 @@
 		"editorLink.activeForeground": "#8be9fd",
 		"editor.rangeHighlightBackground": "#bd93f955",
 		"editorCodeLens.foreground": "#6272a4",
-		"editorBracketMatch.background": "#8be8fdb4",
-		"editorBracketMatch.border": "#6272a4",
+		"editorBracketMatch.background": "#bd93f955",
+		"editorBracketMatch.border": "#44475A75",
 		"editorError.foreground": "#ff5555",
 		"editorWarning.foreground": "#8be9fd",
 		"editorGutter.modifiedBackground": "#ffb86c55",
