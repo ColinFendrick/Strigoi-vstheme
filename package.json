@@ -1,0 +1,22 @@
+{
+    "name": "strigoi",
+    "displayName": "Strigoi",
+    "description": "Dracula colors in oceanic next with babel es7 support",
+    "version": "0.0.1",
+    "publisher": "blank",
+    "engines": {
+        "vscode": "^1.22.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Strigoi",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Strigoi-color-theme.json"
+            }
+        ]
+    }
+}
