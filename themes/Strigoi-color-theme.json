@@ -103,7 +103,6 @@
 				"meta.class-method.js entity.name.function.js",
 				"entity.name.function",
 				"entity.name.function.arrow",
-				"meta.function-call",
 				"variable.function",
 				"support.function",
 				"keyword.other.special-method",
@@ -214,8 +213,7 @@
 		{
 			"name": "Import Class, Variable Class",
 			"scope": [
-				"variable.other.class",
-				"meta.class variable.other"
+				"variable.other.class"
 			],
 			"settings": {
 				"foreground": "#ff5555ee"
@@ -229,6 +227,16 @@
 			],
 			"settings": {
 				"foreground": "#ff5555cc"
+			}
+		},
+		{
+			"name": "Variable class",
+			"scope": [
+				"meta.class variable.other"
+			],
+			"settings": {
+				"foreground": "#bd93f9",
+				"fontStyle": "italic"
 			}
 		},
 		{
