@@ -1,14 +1,6 @@
 {	
 	"tokenColors": [
 		{
-			"settings": {
-				"activeGuide": "#FBC95A",
-				"background": "#25292c",
-				"foreground": "#f8f8f2",
-				"stackGuide": "#44494f"
-			}
-		},
-		{
 			"name": "Comments",
 			"scope": [
 				"comment",
@@ -513,7 +505,7 @@
 		"input.background": "#44475a",
 		"input.foreground": "#f8f8f2",
 		"input.border": "#191a21",
-		"input.placeholderForeground": "#ff5555",
+		"input.placeholderForeground": "#6272a4",
 		"inputOption.activeBorder": "#bd93f9",
 		"inputValidation.infoBorder": "#ff79c6",
 		"inputValidation.warningBorder": "#ffb86c",
@@ -526,7 +518,14 @@
   	"list.highlightForeground": "#8BE9FD",
 		"list.hoverBackground": "#44475A75",  	
 		"list.inactiveSelectionBackground": "#44475A75",
-
+		"statusBar.background": "#191A21",                                     
+  	"statusBar.foreground": "#F8F8F2",
+  	"statusBar.debuggingBackground": "#ff5555",
+  	"statusBar.debuggingForeground": "#191A21",
+  	"statusBar.noFolderBackground": "#191A21",
+		"statusBar.noFolderForeground": "#F8F8F2",
+	  "statusBarItem.prominentBackground": "#ff5555",
+  	"statusBarItem.prominentHoverBackground": "#ffb86c"
 	},
 	"name": "Strigoi"
 }
