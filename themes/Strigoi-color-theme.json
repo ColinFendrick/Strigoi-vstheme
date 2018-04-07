@@ -218,6 +218,34 @@
 			}
 		},
 		{
+			"name": "GraphQL Keys",
+			"scope": [
+				"meta.selectionset.graphql variable"
+			],
+			"settings": {
+				"foreground": "#F1FA8C"
+			}
+		},
+		{
+			"name": "GraphQL function arguments",
+			"scope": [
+				"meta.selectionset.graphql meta.arguments variable"
+			],
+			"settings": {
+				"foreground": "#f8f8f2"
+			}
+		},
+		{
+			"name": "GraphQL fragment name",
+			"scope": [
+				"entity.name.fragment.graphql",
+				"variable.fragment.graphql"
+			],
+			"settings": {
+				"foreground": "#8be9fd"
+			}
+		},
+		{
 			"name": "Sub-methods",
 			"scope": [
 				"entity.name.module.js",
@@ -361,6 +389,30 @@
 			"settings": {
 				"fontStyle": "italic",
 				"foreground": "#50fa7b"
+			}
+		},
+		{
+			"name": "Destructuring and binding",
+			"scope": [
+				"meta.import variable.other.readwrite",
+				"meta.export variable.other.readwrite",
+				"meta.object-binding-pattern-variable variable.object.property",
+				"meta.variable.assignment.destructured.object.coffee variable"
+			],
+			"settings":{
+				"foreground": "#ffb86c",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Destructuring / alias binding",
+			"scope": [
+				"meta.import variable.other.readwrite.alias",
+				"meta.export variable.other.readwrite.alias",
+				"meta.variable.assignment.destructured.object.coffee variable variable"
+			],
+			"settings": {
+				"foreground": "#f8f8f2"
 			}
 		},
 		{
