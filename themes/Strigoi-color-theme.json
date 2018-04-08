@@ -24,8 +24,7 @@
 			"name": "Variable",
 			"scope": [
 				"variable",
-				"variable.meta.jsx",
-				"variable.other.readwrite.js"
+				"variable.meta.jsx"
 			],
 			"settings": {
 				"foreground": "#f8f8f2ee"
@@ -97,7 +96,6 @@
 		{
 			"name": "Function, Special Method, Block Level",
 			"scope": [
-				"meta.function-call.python",
 				"meta.function-call.generic.python",
 				"function-call.method.with-arguments",
 				"meta.class-method.js entity.name.function.js",
@@ -133,7 +131,8 @@
 				"keyword.other.unit"
 			],
 			"settings": {
-				"foreground": "#ffb86c"
+				"foreground": "#ffb86c",
+				"fontStyle": "italic"
 			}
 		},
 		{
@@ -289,7 +288,7 @@
 			"name": "Arguments",
 			"scope": "meta.function-call.arguments.python",
 			"settings": {
-				"foreground": "#ffb86c"
+				"foreground": "#f8f8f2ee"
 			}
 		},
 		{
