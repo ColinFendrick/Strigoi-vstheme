@@ -168,7 +168,7 @@
 			],
 			"settings": {
 				"fontStyle": "",
-				"foreground": "#50fa7b"
+				"foreground": "#f1fa8c"
 			}
 		},
 		{
@@ -205,7 +205,7 @@
 				"variable.legacy.builtin.python"
 			],
 			"settings": {
-				"foreground": "#ffb86c"
+				"foreground": "#bd93f9"
 			}
 		},
 		{
@@ -280,7 +280,7 @@
 			"scope": "variable.parameter.function.language.python",
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#bd93f9"
+				"foreground": "#ffb86c"
 			}
 		},
 		{
