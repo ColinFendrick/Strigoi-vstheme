@@ -97,6 +97,7 @@
 		{
 			"name": "Function, Special Method, Block Level",
 			"scope": [
+				"meta.function-call",
 				"function-call.method.with-arguments",
 				"meta.class-method.js entity.name.function.js",
 				"entity.name.function",
