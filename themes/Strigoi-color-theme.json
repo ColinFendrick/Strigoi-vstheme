@@ -185,7 +185,8 @@
 				"markup.changed.git_gutter"
 			],
 			"settings": {
-				"foreground": "#bd93f9"
+				"foreground": "#bd93f9",
+				"fontStyle": "italic"
 			}
 		},
 		{
@@ -254,15 +255,6 @@
 			],
 			"settings": {
 				"foreground": "#ff5555cc"
-			}
-		},
-		{
-			"name": "Variable class",
-			"scope": [
-				"meta.class variable.other"
-			],
-			"settings": {
-				"foreground": "#bd93f9"
 			}
 		},
 		{
